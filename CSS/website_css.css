@@ -1,0 +1,77 @@
+.ubar_1 {border-style: solid; border-color: blue; border-width:0px; 
+padding-top: 12px; padding-bottom:12px; 
+background: #15111C}
+
+.ubar_2 {display: inline-block; border: solid 0px gray; width:46%
+;font-family:Arial; font-size: 14px;text-transform: uppercase;}
+
+.span_1 {margin-left: 50px; color: white;}
+.span_2 {margin-left: 20px; color: white;}
+
+.ubar_links {width:50%; text-align: right; 
+display: inline-block; border: solid 0px gray;}
+
+.ubar_links a{color: white; margin-left: 10px;text-decoration:none;}
+
+.head_nav {height:3px;vertical-align:top;}
+
+.head_nav_logo { display:inline-block;
+border:solid gray 0px;
+padding:10px 0px; height: 50px;
+vertical-align:top;
+text-align:left; width:20%;}
+
+.head_nav_logo {margin-left:50px;}
+
+.head_nav {margin-bottom:75px;padding-right: 50px;}
+
+.head_nav_links {display:inline-block;
+padding: 10px 0px; width:75%; border: solid gray 0px;
+text-align:right; height: 50px; vertical-align: top;}
+
+.head_nav_links a {display:inline-block;
+width:90px; text-decoration:none;
+color:#110D17; font-family:calibri; font-size:15px;
+padding-left:10px; padding-right:10px;
+padding-top:7px; margin:5px;}
+
+.head_nav_links a{border:solid gray 0px;
+text-align:center; padding: 0px 0px 5px 0px;}
+
+.head_nav_links a:hover{background:#15111C;color:white;}
+
+/*hero image section*/
+.cover {background:#7A0000}
+
+
+
+
+
+
+
+
+/*RESPONSIVE SECTION
+*MEDIA QUERY*/
+
+@media screen and (max-width:700px)
+{.ubar_1 {padding:5px;text-align:center;width:90%}
+
+.ubar_2 {padding:5px;text-align:center;width:90%}
+
+.span_1 {padding:5px;text-align:center;width:90%}
+
+.span_2 {padding:5px;text-align:center;width:90%}
+
+.ubar_links {padding:5px;text-align:center;width:90%}
+
+.ubar_links a {padding:5px;text-align:center;width:90%}
+
+.head_nav {padding:5px;text-align:center;width:90%}
+
+.head_nav_logo {padding:5px 15px 5px 0px;text-align:center;width:50%}
+
+.head_nav_links {padding:5px 5px 0px 0px;text-align:center;width:100%}
+
+.head_nav_links a {padding:5px 0px 0px 30px;text-align:center;width:90%}
+
+}
